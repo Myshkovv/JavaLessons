@@ -6,12 +6,14 @@ public class DZ_calculator {
         
         System.out.print("Имя: ");
         String name = scan.nextLine();
-		System.out.print("Введите операцию из предложенных (+, -, *, /): ");
-        String operation = scan.nextLine();
+		
         System.out.print("Первое число: ");
         double firstNumber = scan.nextDouble();
+		System.out.print("Введите операцию из предложенных (+, -, *, /): ");
+        String operation = scan.nextLine();
         System.out.print("Второе число: ");
         double secondNumber = scan.nextDouble();
+		
 		
         double result = 0;
 		boolean isWork = true;
